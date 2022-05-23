@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="365.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.UsersInfoController2">
+    <children>
+        <ImageView fitHeight="365.0" fitWidth="1000.0">
+            <image>
+                <Image url="@../../../images/stageIcon.jpg" />
+            </image>
+        </ImageView>
+        <ListView fx:id="userInfoListView" prefHeight="167.0" prefWidth="1000.0" />
+        <ListView fx:id="lendBooksListView" layoutY="166.0" prefHeight="199.0" prefWidth="360.0" />
+        <Button id="record-sales" fx:id="getUserInfoButton" layoutX="400.0" layoutY="197.0" mnemonicParsing="false" onAction="#getUserInfoButtonClick" prefHeight="138.0" prefWidth="159.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Get User Info">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button id="record-sales" fx:id="getLendBooksButton" layoutX="599.0" layoutY="197.0" mnemonicParsing="false" onAction="#getLendBooksButtonClick" prefHeight="138.0" prefWidth="159.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Get Lend Books Info" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button id="record-sales" fx:id="goBackButton" layoutX="799.0" layoutY="197.0" mnemonicParsing="false" onAction="#goBackButtonClick" prefHeight="138.0" prefWidth="159.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    </children>
+</AnchorPane>

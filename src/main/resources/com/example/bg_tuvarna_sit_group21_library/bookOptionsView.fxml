@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="365.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.BookMenuController">
+   <children>
+      <ImageView fitHeight="365.0" fitWidth="659.0">
+         <image>
+            <Image url="@../../../images/adminView.jpg" />
+         </image>
+      </ImageView>
+      <Button id="record-sales" fx:id="addBookButton" layoutX="54.0" layoutY="147.0" mnemonicParsing="false" onAction="#onAddBookButtonClick" prefHeight="71.0" prefWidth="141.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Add Book">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="archiveBookButton" layoutX="464.0" layoutY="147.0" mnemonicParsing="false" onAction="#onArchiveBookButtonClick" prefHeight="71.0" prefWidth="141.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Archive Book">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="scrapBookButton" layoutX="264.0" layoutY="147.0" mnemonicParsing="false" onAction="#onScrapBookButtonClick" prefHeight="71.0" prefWidth="141.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Scrap Book">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="goBackButton" layoutX="289.0" layoutY="300.0" mnemonicParsing="false" onAction="#goBackButtonClick" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="archiveForLaterButton" layoutX="426.0" layoutY="231.0" mnemonicParsing="false" onAction="#archiveForLaterButtonClick" prefHeight="35.0" prefWidth="218.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Remind to Archive for Later" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="365.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.HelloController">
+      <children>
+         <ImageView fitHeight="365.0" fitWidth="659.0">
+            <image>
+               <Image url="@../../../images/loginImage.jpg" />
+            </image>
+         </ImageView>
+         <Button id="record-sales" fx:id="operatorLoginButton" layoutX="144.0" layoutY="113.0" mnemonicParsing="false" onAction="#onOperatorLoginButtonClick" prefHeight="42.0" prefWidth="164.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Login as Operator" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="351.0" AnchorPane.topAnchor="113.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+         <Button id="record-sales" fx:id="adminLoginButton" layoutX="353.0" layoutY="113.0" mnemonicParsing="false" onAction="#onAdminLoginButtonClick" prefHeight="42.0" prefWidth="164.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Login as Admin" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="353.0" AnchorPane.rightAnchor="142.0" AnchorPane.topAnchor="113.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="exitButton" layoutX="291.0" layoutY="183.0" mnemonicParsing="false" onAction="#exitButtonClick" prefHeight="42.0" prefWidth="78.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Exit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      </children>
+</AnchorPane>

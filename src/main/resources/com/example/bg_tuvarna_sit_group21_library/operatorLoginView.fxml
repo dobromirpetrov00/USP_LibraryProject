@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="365.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.OperatorLoginController">
+         <children>
+      <ImageView fitHeight="365.0" fitWidth="659.0">
+         <image>
+            <Image url="@../../../images/loginImage.jpg" />
+         </image>
+      </ImageView>
+            <TextField fx:id="opUsername" layoutX="135.0" layoutY="113.0" promptText="Enter username" />
+      <Label layoutX="163.0" layoutY="78.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="78.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+            <Button id="record-sales" fx:id="operatorLogin" layoutX="212.0" layoutY="162.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="42.0" prefWidth="98.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <PasswordField fx:id="opPassword" layoutX="383.0" layoutY="113.0" promptText="Enter password" />
+      <Label fx:id="labelWrongInfo" layoutX="168.0" layoutY="236.0" prefHeight="24.0" prefWidth="323.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <Button id="record-sales" fx:id="goBackButton" layoutX="350.0" layoutY="162.0" mnemonicParsing="false" onAction="#goBackButtonClick" prefHeight="42.0" prefWidth="98.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+         </children>
+      </AnchorPane>
