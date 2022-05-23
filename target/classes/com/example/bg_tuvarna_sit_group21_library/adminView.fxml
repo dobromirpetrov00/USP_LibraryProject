@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="365.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.AdministratorController">
+   <children>
+      <ImageView fitHeight="365.0" fitWidth="659.0">
+         <image>
+            <Image url="@../../../images/adminView.jpg" />
+         </image>
+      </ImageView>
+      <Button id="record-sales" fx:id="createOperator" layoutX="94.0" layoutY="152.0" mnemonicParsing="false" onAction="#onCreateOperatorButtonClick" prefHeight="62.0" prefWidth="153.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Create Operator">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="record-sales" fx:id="bookOptions" layoutX="409.0" layoutY="152.0" mnemonicParsing="false" onAction="#onBookOptionsButtonClick" prefHeight="62.0" prefWidth="153.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Book Options">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="goBackButton" layoutX="289.0" layoutY="273.0" mnemonicParsing="false" onAction="#goBackButtonClick" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="submittedFormsButton" layoutX="11.0" layoutY="58.0" mnemonicParsing="false" onAction="#submittedFormsButtonClick" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Submitted Forms">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="booksInfoButton" layoutX="178.0" layoutY="58.0" mnemonicParsing="false" onAction="#booksInfoButtonClick" prefHeight="42.0" prefWidth="137.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Books">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="usersInfoButton" layoutX="345.0" layoutY="58.0" mnemonicParsing="false" onAction="#usersInfoButtonClick" prefHeight="42.0" prefWidth="137.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Users">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="usersRatingButton" layoutX="512.0" layoutY="58.0" mnemonicParsing="false" onAction="#usersRatingButtonClick" prefHeight="42.0" prefWidth="137.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="User's Rating">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

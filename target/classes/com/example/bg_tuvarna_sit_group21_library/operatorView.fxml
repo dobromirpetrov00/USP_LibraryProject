@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="365.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bg_tuvarna_sit_group21_library.presentation.controllers.OperatorController">
+   <children>
+      <ImageView fitHeight="365.0" fitWidth="659.0">
+         <image>
+            <Image url="@../../../images/adminView.jpg" />
+         </image>
+      </ImageView>
+      <Button id="record-sales" fx:id="goBackButton" layoutX="199.0" layoutY="265.0" mnemonicParsing="false" onAction="#goBackButtonClick" prefHeight="56.0" prefWidth="116.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="createReaderProfileButton" layoutX="153.0" layoutY="61.0" mnemonicParsing="false" onAction="#createReaderProfileButtonClick" prefHeight="63.0" prefWidth="162.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Create Reader Profile">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="giveBookButton" layoutX="153.0" layoutY="166.0" mnemonicParsing="false" onAction="#giveBookButtonClick" prefHeight="63.0" prefWidth="162.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Give Book">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="getBackBookButton" layoutX="370.0" layoutY="166.0" mnemonicParsing="false" onAction="#getBackBookButtonClick" prefHeight="63.0" prefWidth="162.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Get Back Book">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="signOutReaderButton" layoutX="370.0" layoutY="61.0" mnemonicParsing="false" onAction="#signOutReaderButtonClick" prefHeight="63.0" prefWidth="162.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="Sign Out Reader">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="record-sales" fx:id="referencesButton" layoutX="370.0" layoutY="265.0" mnemonicParsing="false" onAction="#referencesButtonClick" prefHeight="56.0" prefWidth="116.0" styleClass="record-sales" stylesheets="@../../../CSS/loginButton.css" text="References">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
